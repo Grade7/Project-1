@@ -1,0 +1,22 @@
+Draft for account Log in Code
+
+string accountName;
+string accountPassword;	
+string nameInput;
+string passwordInput;
+bool correctPassword = false;
+
+while (correctPassword = false) {
+>nameInput Prompt box
+>passwordInput Prompt box
+accountName = nameInput;
+>search database for accountName 
+>search database for accountPassword linked to accountName
+If (passwordInput == accountPassword) {
+correctPassword = true;
+} else { 
+Console.WriteLine(“Incorrect username or password”);
+}
+}
+>Log into account
+
