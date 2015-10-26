@@ -1,9 +1,9 @@
 <?php
 $servername = "localhost";
 $username = "user";
-$password = "islam4life";
+$password = "group";
 
-$database = "username";
+$database = "house";
 if(!@mysql_connect($servername,$username,$password) || !@mysql_select_db($database)){
 	die("couldn't connect");
 }

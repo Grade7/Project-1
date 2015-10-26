@@ -19,7 +19,7 @@
 
 
 	<div class="content">
-		<form action="http://localhost/ifb299-project\Project Files\test.php" method='post'>
+		<form action="http://localhost/ifb299-project\Project%20Files\test.php" method='post'>
 			<br> <input class="searchbar" type="text" id="search" name="textbox"
 				size="100" placeholder=" Enter Suburb" required> <input type="submit"
 				class="button" value="Search"> <br> <select name="property">

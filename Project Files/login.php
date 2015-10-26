@@ -4,12 +4,12 @@
  if(isset($_POST['username']) && isset($_POST['password'])) {
  	$username = $_POST['username'];
  	$password = $_POST['password'];
- 	$query = "SELECT username, password FROM user WHERE username = '$username' and password = '$password'";
+ 	$query = "SELECT username, password FROM users WHERE username = '$username' and password = '$password'";
  	if($query_run = mysql_query($query)){
  		$query_num_rows = mysql_num_rows($query_run);
  		if($query_num_rows == 1){
  			$_SESSION ['username'] = $username;
- 			
+			header("location: home.php");
  		}
  		
  	}
@@ -35,11 +35,11 @@
 
 <body>
 	<div class="textunderline">
-		<h1>Login In</h1>
+		<h1>Login</h1>
 	</div>
 	<div class="underline"></div>
 <div class = "position">
-	<form action="http://localhost/ifb299-project\Project Files\login.php"
+	<form action="http://localhost/ifb299-project\Project%20Files\login.php"
 		method='post'>
 		<input class="user" type="text" id="search" name="username"
 			size="100" required placeholder=" Enter Your User Name"> <br> 

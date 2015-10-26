@@ -42,9 +42,19 @@ $username = isset ( $_SESSION ['username'] ) ? $_SESSION ['username'] : null;
 						<a href="#">MISSION STATEMENT</a>
 					</div>
 				</div></li>
+				
+			<li><input type="radio" name="nav-group" id="mega" class="nav-option">
+				<label for="mega" class="nav-item">Join Now</label> <label
+				for="nav-close" class="nav-close"> </label>
+				
+				<div class="nav-content">
+					<div class="nav-sub">
+						<a href="http://localhost/ifb299-project/Project%20Files/register.php">Register</a>
+					</div>
+				</div></li>
 
 			<li class="login"><a href="http://localhost/ifb299-project/Project%20Files/login.php"><?php echo isset($username) ? $username : "Login";?></a></li>
-			<li class="signup"><a href="http://localhost/ifb299-project/Project%20Files/webpage/logout.php"><?php echo isset($username) ? "LOGOUT" : "";?></a></li>
+			<li class="signup"><a href="http://localhost/ifb299-project/Project%20Files/webpage/logout.php"><?php echo isset($username) ? "Logout" : "";?></a></li>
 			
 		</ul>
 

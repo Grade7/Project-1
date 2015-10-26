@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "user";
-$password = "islam4life";
+$password = "group";
 
 $database = "house";
 if(!@mysql_connect($servername,$username,$password) || !@mysql_select_db($database)){
