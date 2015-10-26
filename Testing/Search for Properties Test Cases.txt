@@ -1,0 +1,35 @@
+Redirect Buttons
+1. Home button goes to home
+2. FAQ drop down menu works
+3. FAQ Rent button goes to rent page
+4. About us goes to about us
+5. Login goes to login
+6. All login fields are empty on redirect
+
+Search Bar Pop-up 1
+1. Clicking search with no suburb entered shows the pop-up "Please fill in this field"
+2. Clicking search with no suburb entered sh	ows the pop-up "Please fill in this field" when property type is selected
+3. Clicking search with no suburb entered shows the pop-up "Please fill in this field" when min bed is selected
+4. Clicking search with no suburb entered shows the pop-up "Please fill in this field" when max be is selected
+5. Clicking search with no suburb entered shows the pop-up "Please fill in this field" when min price is selected
+6. Clicking search with no suburb entered shows the pop-up "Please fill in this field" when max price is selected
+7. Clicking search with no suburb entered shows the pop-up "Please fill in this field" when each combination of the above is selected
+
+Search Bar Pop-up 2
+1. Clicking on search with suburb entered but no Property Type shows the pop-up "please select an item in the list"
+
+Search Bar Pop-up 3
+1. Clicking on search with suburb entered but no Min Bed shows the pop-up "please select an item in the list"
+
+Search Bar Pop-up 4
+1. Clicking on search with suburb entered but no Min Bed shows the pop-up "please select an item in the list"
+
+Search Bar Pop-up 5
+1. Clicking on search with suburb entered but no Min Bed shows the pop-up "please select an item in the list"
+
+Search Bar Pop-up 6
+1. Clicking on search with suburb entered but no Min Bed shows the pop-up "please select an item in the list"
+
+Searching
+1. For each combination of the drop down menus, a search successfully queries the database and displays a list of appropriate properties
+2. Searching for a suburb that is not in the database shows the message "No properties in this suburb"
