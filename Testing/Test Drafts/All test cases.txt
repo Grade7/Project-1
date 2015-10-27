@@ -1,0 +1,38 @@
+Login
+2. no data entered
+3. existing username, no password
+4. non existing username, no password
+5. non existing username, password
+6. existing username, incorrect password
+7. existing username, correct password
+
+Logout
+1. Logout after loging in correctly
+
+Nav Bar
+8. home
+9. faq
+10. faq - rent
+11. about us
+12. about us - mission statement
+13. join now
+14. join now - register
+15. join now - register - go to page
+16. login
+
+Register
+17. no data entered
+18. existing username, no password
+19. non existing username, no password
+20. non existing username, password
+21. existing username, correct password
+
+Home
+22. Search for properties
+23. enter suburb
+24. search
+25. property type
+26. min bed
+27. max bed
+28. min price
+29. max price
