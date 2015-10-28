@@ -1,0 +1,218 @@
+
+/* ---- Whole Document ---- */
+
+body {
+	/* Dark Blue background colour for whole site */
+	background-color: #1947a3;
+	font-family: Arial Narrow;
+	text-align: center;
+}
+
+/* ---- Header Area ---- */
+
+/* Header area - Includes title */
+#header {
+	height: 80px;
+	text-align: center;
+	color: black;
+}
+
+/title */
+#header h1 {
+	margin: 0px;
+	padding: 10px;
+	font-family: Buxton Sketch;
+}
+
+
+/* ---- Wrapper - Whole Document ---- */
+
+/* The wrapper around the whole page body */
+#wrapper {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* ---- Menu Area ---- */
+
+/* The individual menu items on the top of every page */
+#menu a {
+	/* General Styling */
+	background-color: red;
+	border-style: outset;
+	display:inline-block;
+	margin:0.5px;
+	
+	/* Gives the items a minimum width of 90px 
+	so that they all appear the same size,
+	but allow them to expand past this point. */
+	min-width:90px;
+	width:auto;
+	
+	/* Allows a decent size for each button */
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	/*Font styling for menu items */
+	font-size:auto;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-family: Calibri;
+}
+
+/* Highlight a menu item when hovering over them */
+#menu a:hover {
+	background-color: blue;
+	text-decoration: underline;
+}
+
+/* Content area - where most page contents are displayed */
+#content {
+	border:2px solid black;
+	background-color: white;
+	text-align: center;
+	padding:0;
+}
+
+
+ul.results {
+	padding:0;
+}
+
+ul.results li {
+	margin:auto;
+	text-align:center;
+    width: 250px;
+	vertical-align:top;
+	min-height:320px;
+    display: inline-block;
+	border:1px dashed black;
+	word-wrap:break-word;
+	background-color:white;
+}
+
+/* textcontrols is the common layout that places everything in the middle of the pages, etc. */
+
+ul.textcontrols {
+	padding:0px;
+}
+
+ul.textcontrols li{
+	margin-bottom:10px;
+	text-align:center;
+	display: block;
+}
+
+ul.textcontrols input, select{
+	width:220px;
+	font-size:105%;
+}
+
+ul.textcontrols:child {
+	text-align:center;
+}
+
+ul.textcontrols textarea {
+	min-width:220px;
+	max-width:500px;
+}
+
+
+
+ul.reviews li {
+	display:inline-block;
+	border:1px dashed black;
+	background-color:white;
+}
+
+select.rating {
+	width:110px;
+}
+
+select.rating1 {
+	width:130px;
+}
+
+select.rating2 {
+	width:90px;
+}
+
+input.bulletinput {
+	max-width:30px;
+}
+
+.parksummary {
+	margin:10px;
+	width:220px;
+	font-family:none;
+}
+
+.parksummary, table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	word-wrap:break-word;
+}
+
+.parksummary th{
+	width:80px;
+	word-wrap:break-word;
+}
+
+.parksummary td{
+	width:auto;
+	word-wrap:break-word;
+}
+
+#content fieldset {
+	margin:10px;
+
+}
+
+.inv
+{
+	height:0px;
+	visibility:hidden;
+	font-size:0%;
+}
+
+.shw
+{
+	color:red;
+	visibility:visible;
+	height:auto;
+	font-size:100%;
+}
+
+/* comment/unncomment/modify the inlabel class to show labels above text boxes */
+.inlabel  {
+	height:0px;
+	visibility:hidden;
+}
+
+/* --- Validation Errors --- */
+
+.valErrors {
+	background-color:red;
+	color:white;
+}
+
+
+/* ---- Footer Area ---- */
+
+#footer {
+	margin: 5px;
+	border: 1px solid black;
+
+	text-align: center;
+}
+
+#footer p {
+	margin: 4px;
+}
+
+.feedLink {
+	color:orange;
+}

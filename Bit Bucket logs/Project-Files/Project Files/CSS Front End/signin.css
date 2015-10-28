@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+.textunderline h1 {
+	color: blue;
+	text-align: center;
+	padding:2px 2px;
+	height: 10px;
+	font-style: italic;
+}
+
+.underline {
+	width: 100%;
+	top:150px;
+	height: .5px;
+	background-color: #CCCCCC	;
+	position: absolute;
+}
