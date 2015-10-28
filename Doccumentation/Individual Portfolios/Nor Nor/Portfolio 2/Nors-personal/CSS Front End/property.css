@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+body {
+  height: 1500px;
+}
+.images {
+padding-left: 200px;	
+position: static;
+}
+
+.propertytable{
+	border-style:solid;
+            border-width:.5px;
+            border-color:#F0FFFF; 
+            padding: 10px;
+            background-color:#FEFEFA	
+}
+
+
+.textunderline h1 {
+	color: blue;
+	text-align: center;
+	padding:2px 2px;
+	height: 10px;
+	font-style: italic;
+}
+
+.underline {
+	width: 100%;
+	top:150px;
+	height: .5px;
+	background-color: #CCCCCC	;
+	position: absolute;
+}
+
+ a {
+	color:#222;
+	text-decoration: none;
+	font: 1em "open Sans";
+}
+
+ 
